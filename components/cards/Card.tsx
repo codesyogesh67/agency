@@ -15,7 +15,10 @@ type CardProps = {
 const Card = ({title,description,iconUrl }: CardProps) => {
 
 
-  return (
+    return (
+        <div className="w-full flex justify-center">
+            
+
     <div className="group relative flex min-h-[380px] w-full max-w-[400px] flex-col overflow-hidden rounded-xl bg-white shadow-md transition-all hover:shadow-lg md:min-h-[438px]">
     
           <div className="flex flex-grow flex-col gap-[2.56rem]  pt-[1.91rem] pb-[2.81rem] px-[2.56rem] items-center service-card-shadow rounded-[1.75rem]">
@@ -34,7 +37,8 @@ const Card = ({title,description,iconUrl }: CardProps) => {
               </div>
 
   
-    </div>
+            </div>
+            </div>
   )
 }
 
