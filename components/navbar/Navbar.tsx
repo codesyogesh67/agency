@@ -43,7 +43,7 @@ const Navbar: React.FC<NavbarProps> = ({
               Login
               </Link>
                         </Button>
-                        <Button asChild className="rounded-full" size="lg">
+                        <Button asChild className="rounded-full bg-themeColor" size="lg">
               <Link href="/sign-in">
                                  
                                     Sign Up

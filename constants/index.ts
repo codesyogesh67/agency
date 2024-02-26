@@ -4,13 +4,17 @@ export const headerLinks = [
       route: '/',
     },
     {
-      label: 'Create Event',
-      route: '/events/create',
+      label: 'About Us',
+      route: '/about-us',
     },
     {
-      label: 'My Profile',
-      route: '/profile',
-    },
+      label: 'Our App',
+      route: '/our-app',
+  },
+  {
+    label: 'Contacts',
+    route: '/contacts',
+  }
 ]
   
 export const serviceData = [

@@ -44,8 +44,10 @@ const Service = (props: Props) => {
               </Link>
             </Button>
           </div>
-
-          <Video src={sample} />
+            <div className="z-10">
+            <Video src={sample} />
+</div>
+         
         </div>
       </section> 
     </>

@@ -32,7 +32,7 @@ const Card = ({title,description,iconUrl }: CardProps) => {
           </div>
           <p className="text-[2.25rem] font-[700]">{title}</p>
       <p className="text-normal">{description}</p>
-      <Button className="w-[10.125rem]">Learn More</Button>
+      <Button className="w-[10.125rem] bg-themeColor">Learn More</Button>
         
               </div>
 

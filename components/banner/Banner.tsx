@@ -14,7 +14,7 @@ const Banner = (props: Props) => {
           <div className="flex flex-col justify-center gap-8">
             <h1 className="font-bold text-[40px] leading-[48px] lg:text-[48px] lg:leading-[60px]  xl:text-[58px] xl:leading-[74px]">Host, Connect, Celebrate: Your Events, Our Platform!</h1>
             <p className="p-regular-20 md:p-regular-24">Book and learn helpful tips from 3,168+ mentors in world-class companies with our global community.</p>
-            <Button size="lg" asChild className="button w-full sm:w-fit">
+            <Button size="lg" asChild className="button w-full bg-themeColor sm:w-fit">
               <Link href="#events">
                 Explore Now
               </Link>

@@ -4,6 +4,7 @@ import Banner from "@/components/banner/Banner";
 import Service from "@/components/sections/Service";
 import Testimonials from "@/components/sections/Testimonials";
 import Teams from "@/components/sections/Teams";
+import Newsletter from "@/components/sections/Newsletter";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <Service />
       <Testimonials />
       <Teams />
+      <Newsletter />
  
 
   </Container>
