@@ -4,6 +4,7 @@ import Link from 'next/link'
 import Logo from '@/components/navbar/Logo'
 import NavItems from './NavItems'
 import { Button } from '@/components/ui/button'
+import MobileNav from './MobileNav'
 // import Search from '@/components/navbar/Search'
 // import UserMenu from '@/components/navbar/UserMenu'
 // import {User} from '@prisma/client'
@@ -37,7 +38,7 @@ const Navbar: React.FC<NavbarProps> = ({
                         <nav className="hidden md:flex w-full max-w-xs">
                                     <NavItems />
                         </nav>
-                        <div>
+                        <div className="flex items-center">
                         <Button asChild className="rounded-full border-none bg-transparent text-black hover:text-black hover:bg-transparent" size="lg">
               <Link href="/sign-in">
               Login
@@ -49,6 +50,10 @@ const Navbar: React.FC<NavbarProps> = ({
                                     Sign Up
               </Link>
                             </Button>
+                            <div className="ml-2">
+
+                            <MobileNav />
+                            </div>
                             </div>
                         {/* <Search />
                         <UserMenu currentUser={currentUser} /> */}
